@@ -22,7 +22,7 @@ variable "environment" {
 
 variable "billing_code" {
   type        = string
-  description = "(required) Billing code to for network resources"
+  description = "(required) Billing code for network resources"
 }
 
 variable "cidr_block" {
